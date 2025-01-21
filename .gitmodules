@@ -1,0 +1,3 @@
+[submodule "client/blog"]
+	path = client/blog
+	url = https://github.com/janakumar/mern-blog.git

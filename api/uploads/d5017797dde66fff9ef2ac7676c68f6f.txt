@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>LOGO</h1>
+    <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </nav>
+    
+</header>
+<div class="container">
+    <div class="car">
+        <h1>FORD</h1>
+        <h2>Brand New <span>"Muscle Car"</span></h2>
+        <P>Building Yesterday's Dream Car</P>
+        <button>Get Started</button>
+        <button>Take A Ride</button> 
+    </div>
+</div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin:0% ;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+.car{
+    color: white;
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 50%;
+}
+.car h1{
+    font-size: 80px;
+    margin-bottom: 2%;
+    letter-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.car h2{
+    font-size: 60px;
+    margin-bottom:2% ;
+}
+.car p{
+    font-size: 40px;
+    margin-bottom:2% ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.car button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,14 @@
+.createpost input{
+    width: 860px;
+   margin-top: 3px;
+   margin-bottom: 10px;
+}
+.createpost{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.create-btn{
+    width: 880px;
+    margin-top: 20px;
+    height: 45px;
+}
